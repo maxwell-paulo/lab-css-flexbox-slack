@@ -1,6 +1,10 @@
 body {
-  background: #f4f3f4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100vw;
+  margin: 0;
+}
+p {
+  color: #5b5e6d;
 }
 
 @media (max-width: 768px) {
@@ -12,7 +16,7 @@ body {
     position: fixed;
     top: 0;
     border-bottom: solid 1px lightgrey;
-    background: #f4f3f4;
+    background: white;
   }
 
   .top img {
@@ -27,6 +31,8 @@ body {
 header {
   display: flex;
   flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
   margin-top: 80px;
 }
 
@@ -41,6 +47,106 @@ header p {
   padding-right: 50px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 50px;
+  background: white;
+}
+
+.emailt {
+  width: 90vw;
+  height: 8vh;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  border: none;
+  border: 1px solid lightgray;
+}
+
+.blue-button {
+  background: #192592;
+  color: white;
+  width: 90vw;
+  height: 8vh;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  border: none;
+}
+
+main {
+  background: #f4f3f4;
+}
+
+.text-sign-in {
+  text-align: center;
+}
+
+.main-top h2 {
+  margin-top: 80px;
+}
+
+.main-top button {
+  margin-top: 30px;
+  width: 90vw;
+  height: 8vh;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  border: none;
+  border: 1px solid #192592;
+  background-color: white;
+  color: #192592;
+}
+
+.main-top {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 50px;
+}
+
+.companies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 50px;
+}
+
+.companies img {
+  width: 40vw;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid lightgray;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 50px;
+  background: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.try-it-for-free {
+  padding-top: 60px;
+  font-size: 30px;
+}
+
+.second-container p {
+  margin: 0;
+}
 /*
 background-grey: #F4F3F4;
 button-purple: #192592
@@ -101,4 +207,4 @@ header img {
 
 .texto-principal h1 {
   max-width: 180px;
-} */
+} */ ;
